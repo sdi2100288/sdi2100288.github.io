@@ -1,6 +1,0 @@
- body{
-    mergin: 0;
-    background: cyan;
-    text-align: center;
-    text color: blue;
- }
