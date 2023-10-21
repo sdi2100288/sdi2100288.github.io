@@ -2,5 +2,6 @@ body{
     margin: 0%;
     text-decoration-color: cyan;
     background: cyan;
-    text-overflow: ellipsis;
+    animation: forwards;
+    animation-duration: 5s;
 }

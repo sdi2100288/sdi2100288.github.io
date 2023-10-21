@@ -2,6 +2,8 @@ body{
     margin: 0%;
     background: greenyellow;
     text-align: center;
-    text-decoration: darkorange;
+    text-decoration-line: darkorange;
     text-wrap: wrap;
+    animation: infinite;
+    animation-duration: 5s;
 }
