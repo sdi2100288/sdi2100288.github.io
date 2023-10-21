@@ -1,4 +1,5 @@
 body{
     margin: 0%;
-    background: limegreen;
+    background: greenyellow;
+    text-align: center;
 }
