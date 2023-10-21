@@ -1,0 +1,5 @@
+remote_theme: pages-themes/minima1@v0.2.0
+title: ΦΟΙΤΗΤΙΚΗ ΑΝΑΜΝΗΣΤΙΚΗ ΙΣΤΟΣΕΛΙΔΑ
+description: Προπτυχιακή-αναμνηστική ιστοσελίδα των σπουδών μου
+plugins: 
+   - jekyll-remote-theme

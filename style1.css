@@ -3,5 +3,5 @@ body{
     background: greenyellow;
     text-align: center;
     text-decoration: darkorange;
-    background-image: -o-repeating-linear-gradient();
+    text-wrap: wrap;
 }
