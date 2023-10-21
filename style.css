@@ -1,5 +1,6 @@
 body{
     margin: 0%;
-    text-decoration-color: gr;
+    text-decoration-color: cyan;
     background: cyan;
+    text-size-adjust: calc(void);
 }
