@@ -2,6 +2,6 @@ body{
     margin: 0%;
     background: greenyellow;
     text-align: center;
-    text-decoration-line: underline;
     text-decoration: darkorange;
+    background-image: -o-repeating-linear-gradient();
 }
