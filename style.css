@@ -1,7 +1,6 @@
 body{
     margin: 0%;
-    text-decoration-color: cyan;
     background: cyan;
-    animation: forwards;
-    animation-duration: 5s;
+    text-align: justify;
+    text-size-adjust: 2;
 }
