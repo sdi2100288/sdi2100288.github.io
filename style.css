@@ -1,4 +1,11 @@
 body{
     margin: 0%;
-    background: aquamarine;
+    background: aqua;
+    text-align: left;
+    #center1{
+        text-align: center;
+    }
+    #center2{
+        text-align: center;
+    }
 }
