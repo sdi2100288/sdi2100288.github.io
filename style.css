@@ -15,8 +15,8 @@ body {
 }
 div {
     background-image: url('/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg');
-    
-    
+    background-repeat: no-repeat;
+     
     background-size: 100% 100%;
     color: aqua;
 }
