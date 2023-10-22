@@ -7,6 +7,10 @@ h2 {
 #contact {
     text-align: right;
 }
+#image {
+    image-rendering: auto;
+    align-self: center;
+}
 
 body {
     margin: 0%;
