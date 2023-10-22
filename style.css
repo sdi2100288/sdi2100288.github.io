@@ -18,3 +18,9 @@ body {
     text-align: left;
     background-image: url'/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg'
 }
+div {
+    background-image: url('/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
