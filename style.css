@@ -19,7 +19,5 @@ div {
     background-attachment: fixed; 
     background-size: 100% 100%;
     color: aqua;
-    max-height: max-content;
-    img {display: block;}
-    
+    background-position: center;
 }
