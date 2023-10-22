@@ -9,12 +9,11 @@ h2 {
 }
 #image {
     image-rendering: auto;
-    align-self: center;
+    text-align: center;
 }
 
 body {
     margin: 0%;
-    background: aqua;
     text-align: left;
     background-image: url'/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg'
 }
