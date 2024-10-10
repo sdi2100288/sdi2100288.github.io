@@ -14,10 +14,26 @@ body {
     text-align: left;
 }
 div {
+    min-height: 100vh;
     background-image: url('/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: 100% 100%;
+    background-size: cover;
     color: aqua;
-    margin-bottom: +50px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    #contact {
+        text-align: center;
+    }
 }
