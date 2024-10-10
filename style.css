@@ -14,7 +14,7 @@ body {
     text-align: left;
 }
 div {
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: url('/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -28,9 +28,24 @@ div {
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+    div {
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    #contact {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
-        height: auto; /* Για κινητά */
+        height: auto;
     }
     p, h1, h2 {
         font-size: 1rem;
