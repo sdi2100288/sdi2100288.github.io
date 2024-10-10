@@ -21,6 +21,11 @@ div {
     background-size: cover;
     color: aqua;
     margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @media only screen and (max-width: 768px) {
