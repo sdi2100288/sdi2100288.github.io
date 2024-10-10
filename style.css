@@ -24,10 +24,6 @@ div {
     padding-bottom: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 @media only screen and (max-width: 768px) {
     div {
         background-size: cover;
@@ -40,14 +36,5 @@ div {
 
     #contact {
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        height: auto;
-    }
-    p, h1, h2 {
-        font-size: 1rem;
     }
 }
