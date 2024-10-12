@@ -26,7 +26,7 @@ div {
 
 @media only screen and (max-width: 768px) {
     div {
-        background-size: contain; /* Adjust the image size to fit within the view without cutting off */
+        background-size: cover; /* Adjust the image size to fit within the view without cutting off */
         background-attachment: scroll; /* Use scroll for a more natural movement on mobile */
         background-position: center; /* Center the image to avoid cut-off parts */
     }
