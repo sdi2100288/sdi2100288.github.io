@@ -1,65 +1,39 @@
-body {
-    margin: 0;
-    text-align: left;
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#contact {
+    text-align: right;
 }
 
-.container {
+
+body {
+    margin: 0%;
+    text-align: left;
+}
+div {
     min-height: 100vh;
     background-image: url('/docs/assets/images/Code-It-Logical-HD-Wallpaper-1.jpg');
     background-repeat: no-repeat;
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-position: center; /* Center the image */
-    background-attachment: fixed; /* Fixed background for desktop */
+    background-attachment: fixed; 
+    background-size: cover;
     color: aqua;
-    padding: 20px; /* Add some padding for better spacing */
+    margin-bottom: 0px;
 }
 
-/* Media Queries for mobile responsiveness */
-@media (max-width: 600px) {
-    .container {
-        background-size: cover; /* Ensure the image covers the entire container on mobile */
-        background-attachment: scroll; /* Scrolls with the content on mobile */
-        background-position: center; /* Keeps the image centered */
+@media only screen and (max-width: 768px) {
+    div {
+        background-size: cover;
+        background-attachment: scroll;
     }
 
     body {
-        text-align: center; /* Center-align text on smaller screens */
-    }
-
-    h1, h2 {
-        font-size: 1.2em; /* Adjust font size for smaller screens */
+        text-align: center;
     }
 
     #contact {
-        text-align: center; /* Center-align contact text */
-    }
-
-    img {
-        width: 100%; /* Make images responsive */
-        height: auto; /* Maintain aspect ratio */
-        max-width: 300px; /* Limit max width for better fit */
-    }
-
-    iframe {
-        width: 100%; /* Make the YouTube video responsive */
-        max-width: 560px; /* Limit max width */
-        height: auto; /* Maintain aspect ratio */
-    }
-}
-
-/* Media Query for landscape orientation */
-@media (max-width: 600px) and (orientation: landscape) {
-    .container {
-        background-size: contain; /* Fit the background within the screen */
-        height: auto; /* Adjust height */
-        padding: 5%; /* Add some padding for better presentation */
-    }
-
-    h1, h2 {
-        font-size: 1em; /* Reduce font size for landscape mode */
-    }
-
-    .container > p {
-        font-size: 0.9em; /* Reduce text size for better readability */
+        text-align: center;
     }
 }
